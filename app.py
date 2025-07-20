@@ -15,7 +15,7 @@ CORS(app)
 # --- Configuration ---
 # You MUST replace 'YOUR_ACTUAL_GEMINI_API_KEY_HERE' with your actual Gemini API key.
 # It is highly recommended to load this from an environment variable for security.
-GEMINI_API_KEY = 'AIzaSyDSQc5d5zPd2IXP5kyGF5MNfcACV8JAJHc' #
+GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY' #
 
 if GEMINI_API_KEY == 'YOUR_ACTUAL_GEMINI_API_KEY_HERE' or not GEMINI_API_KEY:
     print("WARNING: GEMINI_API_KEY is not set or is still the placeholder. "
